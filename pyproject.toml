@@ -1,6 +1,6 @@
 [project]
 name = "pymscada-html"
-version = "0.0.8"
+version = "0.1.0a1"
 description = "Angular single page application html files served by pymscada."
 authors = [
     {name = "Jamie Walton", email = "jamie@walton.net.nz"},
