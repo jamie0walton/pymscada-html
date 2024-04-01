@@ -1,6 +1,6 @@
 [project]
 name = "pymscada-html"
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "Angular single page application html files served by pymscada."
 authors = [
     {name = "Jamie Walton", email = "jamie@walton.net.nz"},
@@ -26,8 +26,7 @@ build-backend = "pdm.pep517.api"
 [tool.pdm.dev-dependencies]
 test = [
     "pytest>=7.4.3",
-    "flake8-docstrings>=1.7.0",
-    "pdm>=2.10.4",
+    "flake8-docstrings>=1.7.0"
 ]
 
 [project.urls]
