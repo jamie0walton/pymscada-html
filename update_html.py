@@ -8,6 +8,8 @@ DST = Path('./src/pymscada_html/html')
 for rm in ['main*js', 'runtime*js', 'styles*css', 'polyfills*js']:
     for f in DST.glob(rm):
         f.unlink()
+        print(f'unlinking {f}')
 
 for f in SRC.glob('*'):
     copy(f, DST)
+    print(f'copying in {f}')
