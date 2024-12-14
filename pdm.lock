@@ -4,8 +4,11 @@
 [metadata]
 groups = ["default", "test"]
 strategy = ["cross_platform"]
-lock_version = "4.4.1"
-content_hash = "sha256:85e8ba56966e46dde9798c9baee93fd30283691c0f95666622d08f1b73a591dd"
+lock_version = "4.5.0"
+content_hash = "sha256:0bb3c93776cdb62b88cc55189c64201b12444e43d6dd010fe91d3e13013646e0"
+
+[[metadata.targets]]
+requires_python = ">=3.9"
 
 [[package]]
 name = "colorama"
@@ -112,6 +115,7 @@ version = "6.3.0"
 requires_python = ">=3.6"
 summary = "Python docstring style checker"
 dependencies = [
+    "importlib-metadata<5.0.0,>=2.0.0; python_version < \"3.8\"",
     "snowballstemmer>=2.2.0",
 ]
 files = [
